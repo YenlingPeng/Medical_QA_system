@@ -3,7 +3,7 @@
 本專案旨在構建第一個中文醫療QA系統聊天機器人。透過蒐集繁體中文的相關衛教網站作為資料庫，通過聊天機器人，用戶可以輸入他們對症狀的主訴，機器人會推薦相關的看診科別與推薦參考的文章。
 ## web crawling 
 本專案蒐集了來自7個台灣衛教網站的衛教文章作為我們資料庫，透過透過觀察每個衛教網站的原始碼，將衛教文章的網站與名稱給蒐集起來。
-7個衛教網站分別來自UDN元氣網、康健知識庫、奇美衛教資訊網、kenkon健康網、仁愛醫療材團法人全球資訊網、今健康、中亞健康網，最後收集了4861篇文章。
+7個衛教網站分別來自[UDN元氣網](https://health.udn.com/health/index)、[康健知識庫](https://kb.commonhealth.com.tw/)、[奇美衛教資訊網](http://www.chimei.org.tw/main/cmh_department/59012/info/)、[kenkon健康網](http://www.kenkon.com.tw/)、[仁愛醫療材團法人全球資訊網](https://www.jah.org.tw/)、[今健康](https://gooddoctorweb.com/)、[中亞健康網](https://www.ca2-health.com/)，最後收集了4861篇文章。
 
 ## Data pre-processing
 在4861篇文章，我們使用 CkipTagger 進行繁體中文的斷詞，再使用
