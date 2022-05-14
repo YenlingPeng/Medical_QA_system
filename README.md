@@ -22,14 +22,6 @@ stop word list 除去停用詞，如你、我、他以及標點符號等。最�
 - 使用PCA降低embedding的維度，並且使用2D的PCA已呈現文字間的相關性。
 - 使用confusion matrix去看多分類型的預測結果，Y軸是我們標籤的科別，X軸是我們預測的科別。
 
-
-
-- 👋 Hi, I’m @sc201groupc
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
 <!---
 sc201groupc/sc201groupc is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
