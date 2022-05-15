@@ -27,4 +27,8 @@ sc201groupc/sc201groupc is a ✨ special ✨ repository because its `README.md` 
 You can click the Preview link to take a look at your changes.
 --->
 
+![Framework](https://user-images.githubusercontent.com/103913257/168462607-2bb4bf97-209b-4877-8946-222dedd06679.jpg)
+![PCA](https://user-images.githubusercontent.com/103913257/168462678-fbd608e9-4759-4da8-8293-886a1c84741f.png)
+![confusion matrix png](https://user-images.githubusercontent.com/103913257/168462714-5090a525-c019-4f93-8136-4b3704963e0a.jpg)
+
 
