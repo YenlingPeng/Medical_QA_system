@@ -25,6 +25,7 @@
 - 使用PCA降低embedding的維度，並且使用2D的PCA已呈現文字間的相關性。
 
 **PCA**
+
 ![PCA](https://github.com/sc201groupc/Medical_QA_system/blob/main/figures/pca_example_heart.png)
 
 
