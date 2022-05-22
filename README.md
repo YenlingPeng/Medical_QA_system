@@ -27,7 +27,9 @@
 **PCA**
 ![PCA](https://github.com/sc201groupc/Medical_QA_system/blob/main/figures/pca_example_heart.png)
 
+
 - 使用confusion matrix去看多分類型的預測結果，Y軸是我們標籤的科別，X軸是我們預測的科別。
+
 
 **Confusion matrixs**
 ![Confusion matrixs](https://github.com/sc201groupc/Medical_QA_system/blob/main/figures/confusion_matrix.png)
