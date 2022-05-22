@@ -5,6 +5,9 @@
 本專案蒐集了來自7個台灣衛教網站的衛教文章作為我們資料庫，透過透過觀察每個衛教網站的原始碼，將衛教文章的網站與名稱給蒐集起來。
 7個衛教網站分別來自[UDN元氣網](https://health.udn.com/health/index)、[康健知識庫](https://kb.commonhealth.com.tw/)、[奇美衛教資訊網](http://www.chimei.org.tw/main/cmh_department/59012/info/)、[kenkon健康網](http://www.kenkon.com.tw/)、[仁愛醫療材團法人全球資訊網](https://www.jah.org.tw/)、[今健康](https://gooddoctorweb.com/)、[中亞健康網](https://www.ca2-health.com/)，最後收集了4861篇文章。
 
+**Project framework**
+![Framework](https://user-images.githubusercontent.com/103913257/168462607-2bb4bf97-209b-4877-8946-222dedd06679.jpg)
+
 ## Data pre-processing
 在4861篇文章，我們使用 [CkipTagger](https://github.com/ckiplab/ckiptagger) 進行繁體中文的斷詞，再使用
 [stop word list](https://github.com/sb123456789sb/Machine-Learning-28/blob/master/data/%E5%81%9C%E7%94%A8%E8%A9%9E-%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87.txt) 除去停用詞，如你、我、他以及標點符號等。最後再以 [Word2Vec](https://code.google.com/archive/p/word2vec/) 去計算字詞之間的相似性。
@@ -20,6 +23,10 @@
 
 ## Visualize
 - 使用PCA降低embedding的維度，並且使用2D的PCA已呈現文字間的相關性。
+
+**PCA**
+![PCA](https://github.com/sc201groupc/Medical_QA_system/blob/main/figures/pca_example_heart.png)
+
 - 使用confusion matrix去看多分類型的預測結果，Y軸是我們標籤的科別，X軸是我們預測的科別。
 
 **Confusion matrixs**
@@ -31,8 +38,8 @@ sc201groupc/sc201groupc is a ✨ special ✨ repository because its `README.md` 
 You can click the Preview link to take a look at your changes.
 --->
 
-![Framework](https://user-images.githubusercontent.com/103913257/168462607-2bb4bf97-209b-4877-8946-222dedd06679.jpg)
-![PCA](https://user-images.githubusercontent.com/103913257/168462678-fbd608e9-4759-4da8-8293-886a1c84741f.png)
-![confusion matrix png](https://user-images.githubusercontent.com/103913257/168462714-5090a525-c019-4f93-8136-4b3704963e0a.jpg)
+
+#![PCA](https://user-images.githubusercontent.com/103913257/168462678-fbd608e9-4759-4da8-8293-886a1c84741f.png)
+#![confusion matrix png](https://user-images.githubusercontent.com/103913257/168462714-5090a525-c019-4f93-8136-4b3704963e0a.jpg)
 
 
